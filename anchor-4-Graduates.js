@@ -4,7 +4,7 @@ function graduates (students) {
 
     for(var i = 0; i < students.length; i++){
             if(students[i].score > 75){
-                if ([students[i].class] === undefined) {
+            if(result[students[i].class] === undefined) {
                     result[students[i].class] = []
 
                     var temp = {
